@@ -41,3 +41,30 @@
 //        return ind;
 //    }
 //}
+
+
+
+
+
+//public class Solution  //5/14/2023 8:46 AM 
+//{
+//    public int[] TwoSum(int[] nums, int target)
+//    {
+//        Dictionary<int,int> twoNums=new Dictionary<int,int>();
+//        int numsLength=nums.Length;
+
+//        for (int i = 0;i< numsLength; i++)
+//        {
+//            if (twoNums.ContainsKey(target-nums[i]))
+//            {
+//                return new int[] { twoNums[target-nums[i]], i};
+//            }
+//            else
+//            {
+//                twoNums[nums[i]] = i;
+//            }
+//        }    
+
+//        return new int[] { 0, 0 }; 
+//    }
+//}
