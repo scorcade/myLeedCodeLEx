@@ -36,3 +36,28 @@
 //    }
 
 //}
+
+
+
+
+
+//public class Solution// 5/15/2023 11:32 PM  
+//{
+//    public bool IsPalindrome(int x)
+//    {
+//        char[] Value = x.ToString().ToArray();//整数x 转成字符数组
+//        char[] Value2 = Value.Reverse().ToArray();// 反转字符串
+
+//        string xx = new string(Value);
+//        string yy = new string(Value2);
+
+//        if (xx.Equals(yy))//比较两字符串是否相等
+//        {
+//            return true;//
+//        }
+//        else
+//        {
+//            return false;
+//        }
+//    }
+//}
