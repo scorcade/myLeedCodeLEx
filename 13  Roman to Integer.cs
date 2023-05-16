@@ -71,7 +71,7 @@ Explanation: L = 50, V = 5, III = 3.*/
 //        {
 //            int value= romaValues[s[i]];
 
-//            if (i<len-1 && value < romaValues[s[i+1]])
+//            if (n<len-1 && value < romaValues[s[i+1]])
 //            {
 //                romaInt -=(int)value;
 //            }
@@ -90,11 +90,45 @@ Explanation: L = 50, V = 5, III = 3.*/
 
 
 
+//public class Solution  //5/16/2023 8:52 PM 
+//{
+//    public int RomanToInt(string s)
+//    {
+//        // 罗马数字字符和对应的整数值的映射
+//        var romanValues = new Dictionary<char, int>()
+//        {
+//            {'I', 1},
+//            {'V', 5},
+//            {'X', 10},
+//            {'L', 50},
+//            {'C', 100},
+//            {'D', 500},
+//            {'M', 1000}
+//        };
 
+//        int result = 0;
+//        int prevValue = 0;
 
+//        // 从右往左遍历罗马数字字符串
+//        for (int i = s.Length - 1; i >= 0; i--)
+//        {
+//            int currValue = romanValues[s[i]];
 
+//            // 如果当前字符代表的值小于上一个字符代表的值，则需要减去当前值
+//            if (currValue < prevValue)
+//            {
+//                result -= currValue;
+//            }
+//            // 否则，将当前值加到结果中
+//            else
+//            {
+//                result += currValue;
+//                prevValue = currValue;
+//            }
+//        }
 
-
-
+//        return result;
+//    }
+//}
 
 
