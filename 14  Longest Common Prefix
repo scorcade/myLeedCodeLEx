@@ -57,3 +57,22 @@
 //    }
 //}
 
+
+
+
+
+//PYTHON 5/18/2023 7:30 PM 
+//class Solution :
+//    def longestCommonPrefix(self, strs: List[str]) -> str:
+//return os.path.commonprefix(strs)
+
+
+
+
+
+
+
+
+
+
+
