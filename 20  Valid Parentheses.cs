@@ -14,9 +14,6 @@
 //左括号必须以正确的顺序闭合。
 //每个右括号都有一个对应的相同类型的左括号。
 
-//来源：力扣（LeetCode）
-//链接：https://leetcode.cn/problems/valid-parentheses
-//著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 //Example 1:
 
@@ -41,3 +38,62 @@
 //using System.Threading.Tasks;
 
 //5/19/2023 10:54 PM
+
+
+//public class Solution  //  5/21/2023 1:35 AM
+//{
+//    public bool IsValid(string s)
+//    {
+//        var len = s.Length;
+//        if (len %2== 1) return false;
+//        if (s[0] == '}' || s[0] == ']' || s[0] == ')'  ) return false;
+//        var stack=new Stack<char>();
+
+//        //stack.Push(s[0]);
+//        for (int i = 0; i < len; i++)
+//        {
+
+//            if (s[i] == '{' || s[i] == '[' || s[i] == '(')
+//            {
+//                stack.Push(s[i]);
+//            }
+//            else
+//            {
+//                if (stack.Count == 0) return false;
+//                else
+//                {
+//                    int v = s[i] - stack.Peek();
+//                    if (stack.Count != 0 && (v == 1 || v == 2)) { stack.Pop(); }
+//                    else { return false; }
+
+//                }
+//            }
+//        }
+//        return stack.Count == 0;
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
