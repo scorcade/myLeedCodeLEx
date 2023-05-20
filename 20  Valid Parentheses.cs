@@ -106,6 +106,34 @@
 
 
 
+//#include <stdio.h>    //5/21/2023 2:49 AM 
+////#include <string.h>
+////typedef enum {true=1,false=0}bool;
+//char pair(char a){
+//    if(a=='}')return '{';
+//    if(a==']')return '[';
+//    if(a==')')return '(';
+//    return 0;
+//}
+//
+//bool isValid(char * s){
+//
+//    int n=strlen(s);
+//    if(n%2==1){return false;}
+//    if (s[0] == '}' || s[0] == ']' || s[0] == ')'  ){ return false;};
+//
+//    int stk[n+1]; int top=0;
+//    for (int i = 0; i < n; ++i) {
+//        char ch= pair(s[i]);
+//        if(ch) {
+//            if (top == 0 || stk[top - 1] != ch) {
+//                return false;
+//            }
+//            top--;
+//        }else{ stk[top++]=s[i];}
+//    }
+//    return top==0;
+//}
 
 
 
