@@ -77,6 +77,31 @@
 
 
 
+//public class Solution   ///5/21/2023 2:12 AM  
+
+//{
+//    public bool IsValid(string s)
+//    {
+//        Stack<char> stack = new Stack<char>();
+//         Hashtable ht = new Hashtable() { { ')','('}, {']','[' }, { '}', '{' } };
+
+//        int sLen = s.Length;    
+//        for (int i = 0; i < sLen; i++)
+//        {
+//            if (ht.ContainsValue(s[i]))
+//            {
+//                stack.Push(s[i]);
+//            }
+//            else if (stack.Count==0 || stack.Pop() != (char)ht[s[i]]) 
+//            {
+//                return false;
+//            }
+//        }
+//        return stack.Count == 0;
+
+//    }
+//}
+
 
 
 
