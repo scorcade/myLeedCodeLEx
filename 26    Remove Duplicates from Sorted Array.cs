@@ -44,6 +44,8 @@
 //{
 //    public int RemoveDuplicates(int[] nums)
 //    {
+//        //if(nums.Length <= 1) return nums.Length;
+//        // int[] nums2 = nums.Distinct().ToArray();  // IEnumerable<int> nums2 = nums.Distinct();
 //        var nums2 = nums.Distinct();
 //        int n = 0;
 //        foreach (var item in nums2)
