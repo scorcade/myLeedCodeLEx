@@ -37,3 +37,21 @@
 //        return slowP;
 //    }
 //}
+
+
+
+//public class Solution // 5/22/2023 1:16 AM 
+//{
+//    public int RemoveDuplicates(int[] nums)
+//    {
+//        var nums2 = nums.Distinct();
+//        int n = 0;
+//        foreach (var item in nums2)
+//        {
+//            nums[n++] = item;
+//        }
+//        //int mn = nums.Count();
+
+//        return n;
+//    }
+//}
