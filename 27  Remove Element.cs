@@ -46,7 +46,23 @@
 
 
 
+//public class Solution  //5/22/2023 8:47 PM 
+//{
+//    public int RemoveElement(int[] nums, int val)
+//    {
+//        int n = 0;
+//        List<int> list = nums.ToList();
+//        list.RemoveAll(x => x == val);
+//        foreach (int x in list)
+//        {
+//            //Console.WriteLine(x+" ");
+//            nums[n++] = x;
+//        }
 
+//        return list.Count;
+
+//    }
+//}
 
 
 
