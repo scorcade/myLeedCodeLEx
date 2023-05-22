@@ -2,14 +2,14 @@
 
 //public class Solution //  5/22/2023 7:22 PM
 //{
-//    public int RemoveElement(int[] nums, int val)
-//    {
-//        if (nums.Length <= 1)
-//        {
-//            if (nums.Length == 0) return 0;
-//            if (nums.Length == 1 && nums[0] == val) return 0;
-//            else return 1;
-//        }
+////   public int RemoveElement(int[] nums, int val)
+////   {
+////      if (nums.Length <= 1)
+////        {
+////            if (nums.Length == 0) return 0;
+////            if (nums.Length == 1 && nums[0] == val) return 0;
+////           else return 1;
+////      }
 //        int n = 0;
 //        int i = 0;
 //        int c = nums.Length;
