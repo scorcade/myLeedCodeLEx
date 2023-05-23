@@ -32,3 +32,18 @@
 //        return L;
 //    }
 //}
+
+
+
+
+//public class Solution  //  	2023/05/23 12:19
+//{
+//    public int SearchInsert(int[] nums, int target)
+//    {
+//        int index = Array.BinarySearch(nums, target);
+//        int L = index;
+
+//        if (index < 0) L = ~index;
+//        return L;
+//    }
+//}
