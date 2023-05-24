@@ -39,3 +39,23 @@
 //        return newDigits;
 //    }
 //}
+
+
+//public class Solution // 2023/05/24 19:41
+//{
+//    public int[] PlusOne(int[] digits)
+//    {
+//        int index = Array.LastIndexOf(digits, digits.Reverse().FirstOrDefault(x => x != 9));
+//        if (index < 0)
+//        {
+//            Array.Resize(ref digits, digits.Length + 1); digits = digits.Select(x => 0).ToArray();
+//            digits[0] = 1;
+//        }
+//        else
+//        {
+//            digits[index]++;
+//            for (int i = index + 1; i < digits.Length; i++) { digits[i] = 0; }
+//        }
+//        return digits;
+//    }
+//}
