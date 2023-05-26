@@ -1,0 +1,52 @@
+
+//office09  https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/  2023/05/26 12:00
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace _2441__Largest_Positive_Integer_That_Exists_With_Its_Negative
+//{
+//    internal class office09
+//    {
+//    }
+//}
+
+//public class CQueue  //  	2023/05/26 12:19
+//{
+//    private Stack<int> stackAdd;
+//    private Stack<int> stackDel;
+
+//    public CQueue()
+//    {
+//        stackAdd = new Stack<int>();
+//        stackDel = new Stack<int>();
+//    }
+
+//    public void AppendTail(int value)
+//    {
+//        stackAdd.Push(value);
+//    }
+
+//    public int DeleteHead()
+//    {
+//        //int delItem=0;
+
+//        if (stackDel.Count == 0)
+//        {
+//            while(stackAdd.Count > 0)
+//            {
+//                stackDel.Push(stackAdd.Pop());
+//            }
+//        }
+//        if (stackDel.Count == 0)
+//        {
+//            return -1;
+//        }
+//        else
+//        {
+//            return stackDel.Pop();
+//        }
+//    }
+//}
