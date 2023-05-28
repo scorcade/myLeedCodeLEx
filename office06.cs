@@ -54,3 +54,76 @@
         
 //    }
 //}
+
+
+
+
+
+
+
+
+
+
+//public class Solution  //2023/05/28 18:09
+//{
+//    //public class ListNode
+//    //{
+//    //    public int val;
+//    //    public ListNode next;
+//    //    public ListNode(int x) { val = x; }
+//    }
+//    public int[] ReversePrint(ListNode head)
+//    {
+//        List<int> list = new List<int>();
+
+//        while (head!=null)
+//        {
+//            list.Add(head.val);
+//            head = head.next;
+//        }
+//        list.Reverse();
+//        return list.ToArray();  
+
+        
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//public class Solution  //2023/05/28 18:36
+//{
+
+//    public class ListNode
+//    {
+//        public int val;
+//        public ListNode next;
+//        public ListNode(int x) { val = x; }
+//    }
+//    public int[] ReversePrint(ListNode head)
+//    {
+//        List<int> listReversal = new List<int>();
+
+//        void listRecursionReversal(ListNode node)
+//        {
+//            if (node == null) return;
+//            listRecursionReversal(node.next);
+//            listReversal.Add(node.val);
+//        }
+
+//        listRecursionReversal(head);
+//        return listReversal.ToArray();
+//    }
+//}
