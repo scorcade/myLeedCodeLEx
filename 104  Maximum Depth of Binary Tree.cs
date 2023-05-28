@@ -28,11 +28,28 @@
  *     }
  * }
  */
-public class Solution  //5/28/2023 6:47 PM 
+//public class Solution  //5/28/2023 6:47 PM  	2023/05/28 19:05
 
-{
-    public int MaxDepth(TreeNode root)
-    {
+//{
+//    public class TreeNode
+//    {
+//        public int val;
+//        public TreeNode left;
+//        public TreeNode right;
+//        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+//        {
+//            this.val = val;
+//            this.left = left;
+//            this.right = right;
+//        }
+//        public int MaxDepth(TreeNode root)
+//        {
+//            if (root == null) return 0;
+//            else
+//            {
+//                return Math.Max(MaxDepth(root.left), MaxDepth(root.right)) + 1;
+//            }
 
-    }
-}
+//        }
+//    }
+//}
